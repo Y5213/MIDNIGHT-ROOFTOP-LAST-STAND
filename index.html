@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MIDNIGHT ROOFTOP: LAST STAND</title>
+    <meta name="description" content="Survive 10 waves of undead on a rain-soaked rooftop until dawn rescue." />
+    <link rel="stylesheet" href="/src/ui/styles.css" />
+  </head>
+  <body>
+    <!-- 3D Canvas Mount -->
+    <div id="game-container"></div>
+
+    <!-- UI Overlay Layer -->
+    <div id="ui-root"></div>
+
+    <!-- Desktop requirement guard for touch devices -->
+    <div id="touch-guard" class="hidden">
+      <div class="touch-card">
+        <h1>DESKTOP REQUIRED</h1>
+        <p>MIDNIGHT ROOFTOP: LAST STAND requires a physical keyboard and mouse for tactical pointer-lock combat.</p>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
